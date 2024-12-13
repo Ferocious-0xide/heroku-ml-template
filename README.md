@@ -19,10 +19,10 @@ Template for deploying machine learning models on Heroku with Redis queue and Po
    ```
    heroku create
    heroku addons:create heroku-redis:hobby-dev
-   heroku addons:create heroku-postgresql:hobby-dev
+   heroku addons:create heroku-postgresql:standard-0
    heroku run alembic upgrade head
    git push heroku main
-   heroku ps:scale worker=1
+   heroku ps:scale worker=Standard-1x
    ```
 
 ## Database Features

@@ -1,0 +1,9 @@
+{
+  "name": "ml-heroku-template",
+  "description": "Template for deploying ML models on Heroku with PostgreSQL support",
+  "keywords": ["python", "machine-learning", "tensorflow", "redis", "postgresql"],
+  "addons": [
+    "heroku-redis:hobby-dev",
+    "heroku-postgresql:hobby-dev"
+  ]
+}

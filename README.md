@@ -26,7 +26,7 @@ Template for deploying machine learning models on Heroku with Redis queue and Po
    ```
 
 ## Database Features
-- Model storage in PostgreSQL BLOB fields
+- Model storage in PostgreSQL
 - Vector embeddings support with pgvector
 - Automatic migrations with Alembic
 
